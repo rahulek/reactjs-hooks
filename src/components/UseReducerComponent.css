@@ -9,5 +9,9 @@
     padding: 10px;
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+}
+
+.ex-wrapper button {
+    margin: 3px;
 }

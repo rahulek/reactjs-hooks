@@ -1,5 +1,5 @@
 import "./App.css";
-import UseRefComponent from "./components/UseRefComponent";
+import UseReducerComponent from "./components/UseReducerComponent";
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
       <div className="titleBar">
         <h2>ReactJS Hooks Demo</h2>
       </div>
-      <UseRefComponent />
+      <UseReducerComponent />
     </div>
   );
 }
