@@ -1,0 +1,14 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App .titleBar {
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: rgb(105, 105, 154);
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
