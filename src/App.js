@@ -1,5 +1,5 @@
 import "./App.css";
-import UseStateComponent from "./components/UseStateComponent";
+import UseEffectComponent from "./components/UseEffectComponent";
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
       <div className="titleBar">
         <h2>ReactJS Hooks Demo</h2>
       </div>
-      <UseStateComponent />
+      <UseEffectComponent />
     </div>
   );
 }
