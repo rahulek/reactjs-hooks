@@ -1,5 +1,5 @@
 import "./App.css";
-import UseReducerWithContextComponent from "./components/UseReducerWithContextComponent";
+import AsyncDataUseEffect from "./components/AsyncDataUseEffect/AsyncDataUseEffect";
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
       <div className="titleBar">
         <h2>ReactJS Hooks Demo</h2>
       </div>
-      <UseReducerWithContextComponent />
+      <AsyncDataUseEffect />
     </div>
   );
 }
