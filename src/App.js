@@ -1,5 +1,5 @@
 import "./App.css";
-import UseContextComponent from "./components/UseContextComponent";
+import UseReducerWithContextComponent from "./components/UseReducerWithContextComponent";
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
       <div className="titleBar">
         <h2>ReactJS Hooks Demo</h2>
       </div>
-      <UseContextComponent />
+      <UseReducerWithContextComponent />
     </div>
   );
 }
